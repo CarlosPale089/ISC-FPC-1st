@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_5_VARIABLES"/>
+        <attribute name="authors" value="unipa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-28 04:58:59 p. m."/>
+        <attribute name="created" value="dW5pcGE7REVTS1RPUC00UDVUSUk2OzIwMjUtMDgtMjg7MDQ6MDM6NTUgcC4gbS47MzA2OQ=="/>
+        <attribute name="edited" value="dW5pcGE7REVTS1RPUC00UDVUSUk2OzIwMjUtMDgtMjg7MDQ6NTg6NTkgcC4gbS47MTszMTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <assign variable="Nombre" expression="&quot;Carlos David Castillo Gaytan&quot;"/>
+            <assign variable="Edad" expression="17"/>
+            <output expression="Nombre" newline="True"/>
+            <output expression="Edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
